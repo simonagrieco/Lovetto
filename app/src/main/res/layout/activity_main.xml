@@ -5,13 +5,6 @@
     android:layout_height="match_parent"
     android:background="#fffcfc">
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
 
             <LinearLayout
                 android:id="@+id/LL1"
@@ -27,14 +20,13 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_gravity="left"
                     android:background="@drawable/ic_sx_home" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="36dp"
-                    android:layout_marginRight="36dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="70dp"
                     android:fontFamily="@font/robotoblack"
                     android:text="Oggi"
                     android:textSize="40dp" />
@@ -42,8 +34,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_gravity="right"
-                    android:background="@drawable/ic_dx_home" />
+                    android:background="@drawable/ic_dx_home"
+                    android:onClick="lanciaDettagliIncubata" />
 
             </LinearLayout>
 
@@ -65,7 +57,8 @@
                 android:id="@+id/LL2"
                 style="@style/section_blocchi_home"
                 android:layout_below="@+id/LL1"
-                android:background="@drawable/file_red">
+                android:background="@drawable/file_red"
+                android:onClick="lanciaCreaIncubata">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -132,19 +125,15 @@
                     android:layout_height="40dp"
                     android:layout_row="0"
                     android:layout_column="2"
-                    android:layout_gravity="center"
+                    android:layout_gravity="right|center"
                     android:background="@drawable/ic_freccia_destra" />
             </GridLayout>
 
-            <!-- Bottom navigation -->
-            <FrameLayout
-                android:id="@+id/container"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </RelativeLayout>
-
-    </ScrollView>
+    <!-- Bottom navigation
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNav"
