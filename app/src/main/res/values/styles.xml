@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- stili per pagine HOME -->
     <style name="section_blocchi_home">
         <item name="android:layout_width">310dp</item>
         <item name="android:layout_height">150dp</item>
@@ -16,6 +17,8 @@
         <item name="android:layout_marginBottom">60dp</item>
     </style>
 
+
+    <!-- stili comune per titolo pagine -->
     <style name="titoli_pagine">
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:textSize">40dp</item>
@@ -25,7 +28,9 @@
     </style>
 
 
-    <!-- stili "dettagli incubata"-->
+    <!-- stili "dettagli incubata" -->
+
+    <!--sezione speratura, calendario, controllo romoto ecc.. -->
     <style name="sezione_dettagli">
         <item name="android:layout_width">310dp</item>
         <item name="android:layout_height">60dp</item>
@@ -33,6 +38,13 @@
         <item name="android:layout_centerHorizontal">true</item>
         <item name="android:layout_marginBottom">20dp</item>
     </style>
-
+    <!-- stili iconcine nelle varie sezioni -->
+    <style name="sezione_icone">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">center|left</item>
+    </style>
 
 </resources>

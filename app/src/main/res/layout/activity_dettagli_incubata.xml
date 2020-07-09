@@ -15,6 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+
+            <!-- sezione TITOLO -->
             <LinearLayout
                 android:id="@+id/LL1"
                 android:layout_width="match_parent"
@@ -29,6 +31,7 @@
                     android:layout_marginLeft="50dp"
                     android:text="@string/dettagli_incubata" />
 
+                <!-- bottone MODIFICA (rimanda a "modifica dettagli incubata) -->
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -39,6 +42,7 @@
                     android:textColor="#FFF" />
             </LinearLayout>
 
+            <!-- sezione INFORMAZIONI -->
             <GridLayout
                 android:id="@+id/LL2"
                 android:layout_width="match_parent"
@@ -107,6 +111,7 @@
                 android:layout_centerHorizontal="true"
                 android:orientation="vertical">
 
+                <!-- sezione REMINDER-->
                 <LinearLayout
                     android:id="@+id/reminder"
                     android:layout_width="310dp"
@@ -146,7 +151,7 @@
 
                 </LinearLayout>
 
-                <!-- sezione "PASSI DA SEGUIRW" -->
+                <!-- sezione "PASSI DA SEGUIRE" -->
                 <GridLayout
                     android:id="@+id/passiSeguire"
                     style="@style/sezione_dettagli"
@@ -155,13 +160,9 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_row="0"
                         android:layout_column="0"
-                        android:layout_gravity="center|left"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
+                        style="@style/sezione_icone"
                         android:background="@drawable/ic_list2" />
 
                     <TextView
@@ -195,13 +196,9 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:layout_row="0"
                         android:layout_column="0"
-                        android:layout_gravity="center|left"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
+                        style="@style/sezione_icone"
                         android:background="@drawable/ic_calendario" />
 
                     <TextView
@@ -234,13 +231,9 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
                         android:layout_row="0"
                         android:layout_column="0"
-                        android:layout_gravity="center|left"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
+                        style="@style/sezione_icone"
                         android:background="@drawable/ic_torcia" />
 
                     <TextView
@@ -273,13 +266,9 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
                         android:layout_row="0"
                         android:layout_column="0"
-                        android:layout_gravity="center|left"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
+                        style="@style/sezione_icone"
                         android:background="@drawable/ic_temp" />
 
                     <TextView

@@ -3,4 +3,6 @@
 
     <string name="dettagli_incubata">Dettagli \nincubata </string>
     <string name="crea_incubata">Crea \nincubata </string>
+    <string name="dettagli_incubatore">Dettagli \nincubatore </string>
+    <string name="mod_dettagli_incubata">Modifica \ndettagli incubata </string>
 </resources>
