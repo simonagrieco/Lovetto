@@ -263,7 +263,8 @@
                     style="@style/sezione_dettagli"
                     android:layout_below="@+id/LL1"
                     android:background="@drawable/file_blue"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:onClick="mostraControlloRemoto">
 
                     <ImageView
                         android:layout_row="0"

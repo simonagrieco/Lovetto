@@ -17,14 +17,37 @@
         <item name="android:layout_marginBottom">60dp</item>
     </style>
 
+    <!-- HEADERS-->
 
-    <!-- stili comune per titolo pagine -->
-    <style name="titoli_pagine">
+            <!-- stili comune per titolo pagine -->
+            <style name="titoli_pagine">
+                <item name="android:layout_centerHorizontal">true</item>
+                <item name="android:textSize">40dp</item>
+                <item name="android:layout_marginBottom">50dp</item>
+                <item name="fontFamily">@font/robotobold</item>
+                <item name="android:textColor">#171717</item>
+            </style>
+
+            <style name="titolo_pagina_con_tasto_back">
+                <item name="android:textSize">40dp</item>
+                <item name="fontFamily">@font/robotobold</item>
+                <item name="android:textColor">#171717</item>
+            </style>
+
+<!--    TEXT STYLES-->
+
+    <style name="descrizione_sezione">
+        <item name="android:textSize">18dp</item>
+        <item name="fontFamily">@font/robotoslab</item>
+        <item name="android:textColor">#171717</item>
+    </style>
+
+    <style name="valore_slider_controllo_remoto">
         <item name="android:layout_centerHorizontal">true</item>
-        <item name="android:textSize">40dp</item>
-        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:textSize">24dp</item>
         <item name="fontFamily">@font/robotobold</item>
-        <item name="android:textColor">#000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginBottom">44dp</item>
     </style>
 
 
