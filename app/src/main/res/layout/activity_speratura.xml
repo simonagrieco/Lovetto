@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_speratura">
+
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/back_icon_right_margin"
+            android:background="@drawable/ic_back" />
+
+        <TextView
+            android:nextFocusRight="@id/LL1"
+            style="@style/titolo_pagina_con_tasto_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/speratura" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/LL1"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testo_speratura"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:fontFamily="@font/robotoslab" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Guarda il tutorial relativo"
+            android:textSize="10dp"
+            android:background="@drawable/barra_sfondo_umidita" />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/uovo_speratura" />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/file_bottoni_back"
+            android:text="Accendi la torcia"
+            android:textColor="#fff"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</RelativeLayout>

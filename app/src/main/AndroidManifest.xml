@@ -8,9 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
-        <activity android:name=".activity_controllo_remoto"></activity>
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_speratura"></activity>
+        <activity android:name=".activity_controllo_remoto" />
         <activity android:name=".activity_modifica_dettagli_incubata" />
         <activity android:name=".activity_dettagli_incubatore" />
         <activity android:name=".activity_dettagli_incubata" />

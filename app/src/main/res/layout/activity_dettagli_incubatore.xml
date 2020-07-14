@@ -123,7 +123,7 @@
                 <!-- bottone "salva modifiche" -->
                 <Button
                     android:id="@+id/bottSalva_dettIncub"
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/file_bottoni_back"
                     android:text="Salva"
