@@ -9,4 +9,8 @@
     <dimen name="header_section_bottom_margin">16dp</dimen>
 
     <dimen name="back_icon_right_margin">16dp</dimen>
+
+    <dimen name="tutorial_cell_height">98dp</dimen>
+    <dimen name="tutorial_cell_width">152dp</dimen>
+    <dimen name="tutorial_cell_gap">20dp</dimen>
 </resources>

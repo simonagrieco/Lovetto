@@ -15,5 +15,5 @@
     <item
         android:id="@+id/tutorial"
         android:title="tutotial"
-        android:icon="@drawable/ic_book" />
+        android:icon="@drawable/ic_book"/>
 </menu>

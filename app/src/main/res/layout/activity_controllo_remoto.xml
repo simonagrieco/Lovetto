@@ -91,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:text="36.5°" />
+                    android:text="36.5°"/>
 
             </RelativeLayout>
 
@@ -156,7 +156,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:text="70%" />
+                    android:text="70%"/>
 
             </RelativeLayout>
 
