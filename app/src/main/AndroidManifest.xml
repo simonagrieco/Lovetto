@@ -15,6 +15,9 @@
             <category android:name="android.intent.category.TAB" />
         </intent-filter>
         </activity>
+        <android:theme="@style/AppTheme">
+        <activity android:name=".activity_timeline"></activity>
+        <activity android:name=".activity_speratura" />
         <activity android:name=".activity_controllo_remoto" />
         <activity android:name=".activity_modifica_dettagli_incubata" />
         <activity android:name=".activity_dettagli_incubatore" />

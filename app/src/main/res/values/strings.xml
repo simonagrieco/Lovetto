@@ -7,5 +7,8 @@
     <string name="mod_dettagli_incubata">Modifica \ndettagli incubata </string>
     <string name="controllo_remoto">Controllo remoto</string>
     <string name="tutorial_header_pagina">Tutorial</string>
+    <string name="speratura">Speratura </string>
+    <string name="testo_speratura"> Il tuo ovetto dovrebbe \nessere così</string>
+    <string name="timeline">Passi da seguire </string>
 
 </resources>
