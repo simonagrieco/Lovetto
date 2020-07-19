@@ -10,12 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name=".activity_tutorial" >
-        <intent-filter>
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.TAB" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
         </activity>
-        <android:theme="@style/AppTheme">
         <activity android:name=".activity_timeline"></activity>
         <activity android:name=".activity_speratura" />
         <activity android:name=".activity_controllo_remoto" />

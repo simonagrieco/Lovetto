@@ -2,6 +2,7 @@ package com.example.lovetto;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void lanciaCreaIncubata(View view) {
         intent = new Intent(this, activity_crea_incubata.class);
+        startActivity(intent);
+    }
+
+    public void lanciaListaTutorial(MenuItem item) {
+        intent = new Intent(this, activity_tutorial.class);
         startActivity(intent);
     }
 }

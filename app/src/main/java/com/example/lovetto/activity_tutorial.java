@@ -19,7 +19,7 @@ public class activity_tutorial extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void lanciaDettaglioTutorial(View v) {
+    public void lanciaDettaglioTutorial(View view) {
         intent = new Intent(this, activity_tutorial.class);
         startActivity(intent);
     }
