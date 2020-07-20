@@ -6,8 +6,9 @@ import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback {
     private Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,4 +30,6 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(this, activity_tutorial.class);
         startActivity(intent);
     }
+
+    public void OnRequestPermissionsResultCallback () {}
 }

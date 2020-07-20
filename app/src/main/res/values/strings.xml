@@ -10,5 +10,11 @@
     <string name="speratura">Speratura </string>
     <string name="testo_speratura"> Il tuo ovetto dovrebbe \nessere così</string>
     <string name="timeline">Passi da seguire </string>
+    <string name="vendi">Vendi</string>
+    <string name="title_location_permission">Titolo</string>
+    <string name="text_location_permission">Permesso</string>
+    <string name="ok">OK</string>
+    <string name="hint_ricerca">Cerca un luogo o un negozio</string>
+    <string name="descrizione_sezione_negozi">Negozi vicino a te</string>
 
 </resources>

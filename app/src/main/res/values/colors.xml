@@ -9,4 +9,6 @@
     <color name="coloreSfondo">#FFFCFC</color>
 
     <color name="cardsAccent">#CCE6FA</color>
+
+    <color name="barra_ricerca">#F7F7F7</color>
 </resources>

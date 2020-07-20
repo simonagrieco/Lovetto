@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
-        android:title="Home"
+        android:title="Oggi"
         android:icon="@drawable/ic_home"/>
     <item
         android:id="@+id/listaIncubata"
-        android:title="Lista incubate"
+        android:title="Incubate"
         android:icon="@drawable/ic_list" />
     <item
         android:id="@+id/vendite"
-        android:title="Vendite"
+        android:title="Vendi"
         android:icon="@drawable/ic_money" />
     <item
         android:id="@+id/tutorial"
