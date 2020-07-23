@@ -2,10 +2,12 @@ package com.example.lovetto;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -18,17 +20,23 @@ public class activity_crea_incubata extends AppCompatActivity {
     private Context context;
     private BottomNavigationView bottomNavigationView;
 
+    private RadioButton rQuaglia, rGallina, rPappagallo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crea_incubata);
 
-        context=this;
+        context = this;
         bottomNavigationView = findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);
         Menu menu = bottomNavigationView.getMenu();
         MenuItem menuItem = menu.getItem(0);
         menuItem.setChecked(true);
+
+        rGallina = findViewById(R.id.radio_gallina);
+        rQuaglia = findViewById(R.id.radio_quaglia);
+        rPappagallo = findViewById(R.id.radio_pappagallo);
     }
 
 
@@ -37,14 +45,14 @@ public class activity_crea_incubata extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void inserisciIncubata(View view){
-        intent= new Intent(this, activity_list.class);
+    public void inserisciIncubata(View view) {
+        intent = new Intent(this, activity_list.class);
         startActivity(intent);
         Toast.makeText(this, "Incubata creata!", Toast.LENGTH_LONG).show();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavMethod = new BottomNavigationView.OnNavigationItemSelectedListener() {
-        public boolean onNavigationItemSelected (@NonNull MenuItem item){
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.home:
                     Intent intent1 = new Intent(context, MainActivity.class);
@@ -67,4 +75,33 @@ public class activity_crea_incubata extends AppCompatActivity {
             return false;
         }
     };
+
+    public void sceltaUovo(View view) {
+        if (rQuaglia.isChecked()) {
+            rQuaglia.setTextColor(Color.WHITE);
+
+
+            rPappagallo.setTextColor(Color.BLACK);
+            rGallina.setTextColor(Color.BLACK);
+            rPappagallo.setChecked(false);
+            rGallina.setChecked(false);
+        }
+
+        if (rPappagallo.isChecked()) {
+            rPappagallo.setTextColor(Color.WHITE);
+
+            rQuaglia.setTextColor(Color.BLACK);
+            rGallina.setTextColor(Color.BLACK);
+            rQuaglia.setChecked(false);
+            rGallina.setChecked(false);
+        }
+        if (rGallina.isChecked()) {
+            rGallina.setTextColor(Color.WHITE);
+
+            rPappagallo.setTextColor(Color.BLACK);
+            rQuaglia.setTextColor(Color.BLACK);
+            rPappagallo.setChecked(false);
+            rQuaglia.setChecked(false);
+        }
+    }
 }

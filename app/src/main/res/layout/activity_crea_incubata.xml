@@ -97,25 +97,33 @@
                         android:orientation="horizontal">
 
                         <RadioButton
+                            android:onClick="sceltaUovo"
+                            android:id="@+id/radio_quaglia"
                             android:button="@null"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="30dp"
                             android:layout_gravity="center"
                             android:drawableTop="@drawable/ic_quaglia"
                             android:text="Quaglia"
                             android:textAppearance="?android:attr/textAppearanceSmall" />
 
                         <RadioButton
+                            android:onClick="sceltaUovo"
+                            android:id="@+id/radio_gallina"
                             android:button="@null"
                             android:layout_width="wrap_content"
-                            android:layout_height="78dp"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:drawableTop="@drawable/ic_pollo"
                             android:text="Gallina"
                             android:textAppearance="?android:attr/textAppearanceSmall" />
 
                         <RadioButton
+                            android:onClick="sceltaUovo"
+                            android:id="@+id/radio_pappagallo"
                             android:button="@null"
+                            android:layout_marginLeft="30dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
