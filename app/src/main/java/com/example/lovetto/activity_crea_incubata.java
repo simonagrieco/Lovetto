@@ -53,9 +53,8 @@ public class activity_crea_incubata extends AppCompatActivity {
         datiTemporanei.setIncubataCreata(true);
         intent = new Intent(this, activity_list.class);
         startActivity(intent);
-//        Toast t = new Toast(this);
-//        t.makeText(this, "Incubata creata!", Toast.LENGTH_LONG);
-//        t.show();
+        Toast.makeText(this, "Incubata creata!",
+                Toast.LENGTH_LONG).show();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavMethod = new BottomNavigationView.OnNavigationItemSelectedListener() {
