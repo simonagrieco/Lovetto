@@ -39,6 +39,7 @@ public class activity_vendita extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.home:
                     Intent intent1 = new Intent(context, MainActivity.class);
+                    startActivity(intent1);
                     break;
                 case R.id.listaIncubata:
                     Intent intent2 = new Intent(context, activity_list.class);

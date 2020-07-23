@@ -34,8 +34,7 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/ic_dx_home"
-                    android:onClick="lanciaDettagliIncubata" />
+                    android:background="@drawable/ic_dx_home" />
 
             </LinearLayout>
 
