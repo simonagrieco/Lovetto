@@ -271,6 +271,10 @@ public class activity_controllo_remoto extends AppCompatActivity implements View
         barraUmidita.startAnimation(animazioneIncremento);
     }
 
+    public void goBack(View v) {
+        finish();
+    }
+
     public void decrementaTemperatura(View view) {
         view.startAnimation(animazioneScala);
         String tempString = rimuoviUltimoCarattere(valoreTemperaturaTv.getText().toString());

@@ -23,7 +23,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/back_icon_right_margin"
             android:background="@drawable/ic_back"
-            android:onClick="tornaDettagliIncubata" />
+            android:onClick="goBack" />
 
         <TextView
             style="@style/titolo_pagina_con_tasto_back"

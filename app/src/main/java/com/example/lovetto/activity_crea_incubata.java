@@ -27,6 +27,9 @@ public class activity_crea_incubata extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crea_incubata);
 
+        // Nascondo la actionbar
+        getSupportActionBar().hide();
+
         context = this;
         bottomNavigationView = findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);
@@ -48,7 +51,9 @@ public class activity_crea_incubata extends AppCompatActivity {
     public void inserisciIncubata(View view) {
         intent = new Intent(this, activity_list.class);
         startActivity(intent);
-        Toast.makeText(this, "Incubata creata!", Toast.LENGTH_LONG).show();
+        Toast t = new Toast(this);
+        t.makeText(this, "Incubata creata!", Toast.LENGTH_LONG).setGravity(0, 50, 50);
+        t.show();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavMethod = new BottomNavigationView.OnNavigationItemSelectedListener() {

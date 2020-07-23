@@ -18,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_calendario"></activity>
+        <activity android:name=".activity_ieri"></activity>
+        <activity android:name=".activity_calendario" />
         <activity android:name=".activity_list" />
 
         <meta-data
@@ -36,6 +37,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_tutorial">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_oggi">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_domani">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

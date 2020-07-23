@@ -56,6 +56,12 @@
         <item name="android:textColor">#171717</item>
     </style>
 
+    <style name="label_card_home">
+        <item name="android:textSize">24dp</item>
+        <item name="fontFamily">@font/robotobold</item>
+        <item name="android:textColor">#171717</item>
+    </style>
+
 
     <!-- stili "dettagli incubata" -->
 

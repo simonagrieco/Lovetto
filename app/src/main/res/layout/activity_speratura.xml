@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,7 +16,7 @@
         android:layout_marginTop="40dp">
 
         <ImageView
-            android:onClick="tornaDettagliIncubata"
+            android:onClick="tornaIndietro"
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:layout_gravity="center_vertical"
@@ -78,5 +79,12 @@
             android:layout_gravity="center" />
     </LinearLayout>
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/tabbar" />
 
 </RelativeLayout>

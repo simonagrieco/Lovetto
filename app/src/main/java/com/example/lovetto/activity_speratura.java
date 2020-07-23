@@ -33,9 +33,8 @@ public class activity_speratura extends AppCompatActivity {
         menuItem.setChecked(true);
     }
 
-    public void tornaDettagliIncubata(View view){
-        intent= new Intent(this, activity_dettagli_incubata.class);
-        startActivity(intent);
+    public void tornaIndietro(View view){
+        finish();
     }
 
     public void mostraTutorial(View view){
