@@ -94,6 +94,7 @@
 
             <!-- Sezione tutorial -->
             <GridLayout
+                android:onClick="mostraTutorial"
                 android:id="@+id/LL3"
                 style="@style/section_blocchi_home"
                 android:layout_below="@+id/LL2"

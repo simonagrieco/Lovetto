@@ -100,9 +100,9 @@
                 android:id="@+id/LL3"
                 android:layout_width="310dp"
                 android:layout_height="120dp"
-                android:layout_marginBottom="20dp"
                 android:layout_below="@+id/LL2"
                 android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/file_blue"
                 android:orientation="vertical">
 
@@ -127,10 +127,10 @@
                         android:layout_height="match_parent"
                         android:layout_row="0"
                         android:layout_column="0"
-                        android:fontFamily="@font/robotoregular"
                         android:layout_gravity="center"
-                        android:textSize="18dp"
-                        android:gravity="center" />
+                        android:fontFamily="@font/robotoregular"
+                        android:gravity="center"
+                        android:textSize="18dp" />
                 </GridLayout>
 
             </LinearLayout>
@@ -156,34 +156,40 @@
                     android:textColor="#000"
                     android:textSize="18dp" />
 
-                <RadioButton
+                <RadioGroup
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="1"
-                    android:layout_column="0"
-                    android:fontFamily="@font/robotoitalic"
-                    android:text="Celsius (C°)" />
+                    android:layout_height="wrap_content">
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_row="2"
-                    android:layout_column="0"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="20dp"
-                    android:fontFamily="@font/robotoitalic"
-                    android:text="Fahrenheit (F°)" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="1"
+                        android:layout_column="0"
+                        android:fontFamily="@font/robotoitalic"
+                        android:text="Celsius (C°)" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="2"
+                        android:layout_column="0"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/robotoitalic"
+                        android:text="Fahrenheit (F°)" />
+                </RadioGroup>
             </GridLayout>
 
 
             <!-- bottone "salva modifiche" -->
             <Button
-                android:layout_below="@id/LL4"
-                android:layout_centerHorizontal="true"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/LL4"
+                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"
                 android:background="@drawable/file_bottoni_back"
+                android:onClick="mostraDettagliIncubata"
                 android:text="Salva"
                 android:textColor="#fff" />
 

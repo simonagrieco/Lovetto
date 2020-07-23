@@ -26,6 +26,7 @@
                 android:layout_marginBottom="40dp">
 
                 <ImageView
+                    android:onClick="tornaDettagliIncubata"
                     android:layout_width="42dp"
                     android:layout_height="42dp"
                     android:layout_gravity="center_vertical"
@@ -76,7 +77,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Inizio incubata.\n Imposta i gradi a 37,7 °C - 99,86 °F e \n l'umidità al 50%-55%."
+                            android:text=" Inizio incubata.\n Imposta i gradi a 37,7 °C - 99,86 °F e \n l'umidità al 50%-55%."
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -109,7 +110,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Gira le uova.\n Controlla tutti i giorni la temperatura e l'umidità."
+                            android:text=" Gira le uova.\n Controlla tutti i giorni la temperatura e  l'umidità."
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -142,7 +143,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Gira le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 55%-50%. Controlla livello acqua"
+                            android:text=" Gira le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 55%-50%. Controlla livello acqua"
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -175,7 +176,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="E' ora della speratura.\n Gradi: 37,7 °C - 99,86 °F"
+                            android:text=" E' ora della speratura.\n Gradi: 37,7 °C - 99,86 °F"
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -209,7 +210,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Gira le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 55%-50%. Controlla livello acqua"
+                            android:text=" Gira le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 55%-50%. Controlla livello acqua"
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -242,7 +243,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Preparati alla scquiusa. Non girare le uova.\n Imposta la nuova temperatura a 37,2 °C - 99,96 °F e Uminidità al 70%."
+                            android:text=" Preparati alla scquiusa. Non girare le uova.\n Imposta la nuova temperatura a 37,2 °C - 99,96 °F e Uminidità al 70%."
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -275,7 +276,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="Non girare le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 70%"
+                            android:text=" Non girare le uova.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 70%"
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>
@@ -308,7 +309,7 @@
                             android:layout_column="0"
                             android:background="@drawable/file_timeline_dx"
                             android:fontFamily="@font/robotoregular"
-                            android:text="I tuoi pulcini stanno nascendo, non toccarli.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 70%"
+                            android:text=" I tuoi pulcini stanno nascendo, non toccarli.\n Gradi: 37,7 °C - 99,86 °F\n Uminidità: 70%"
                             android:textColor="#BDBDBD"
                             android:textSize="12dp" />
                     </GridLayout>

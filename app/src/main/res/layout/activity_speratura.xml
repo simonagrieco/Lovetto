@@ -15,6 +15,7 @@
         android:layout_marginTop="40dp">
 
         <ImageView
+            android:onClick="tornaDettagliIncubata"
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:layout_gravity="center_vertical"
@@ -50,7 +51,8 @@
             android:fontFamily="@font/robotoslab" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:onClick="mostraTutorial"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"

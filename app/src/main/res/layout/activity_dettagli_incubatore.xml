@@ -132,7 +132,7 @@
 
                 <!-- bottone "salva modifiche" -->
                 <Button
-                    android:id="@+id/bottSalva_dettIncub"
+                    android:onClick="tornaCreaIncubata"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"

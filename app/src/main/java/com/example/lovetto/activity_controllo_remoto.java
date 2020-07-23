@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -44,6 +45,7 @@ public class activity_controllo_remoto extends AppCompatActivity implements View
     private float minTemp = 30;
     private float incrementoTemperatura = 0.5f;
     private long durataAnimazioneIncremento = 150;
+    private Intent intent;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -341,5 +343,10 @@ public class activity_controllo_remoto extends AppCompatActivity implements View
                 Color.BLACK, Color.WHITE);
         animNeroBiancoUmi.setEvaluator(new ArgbEvaluator());
         animNeroBiancoUmi.setDuration(100);
+    }
+
+    public void tornaDettagliIncubata(View view){
+        intent= new Intent(this, activity_dettagli_incubata.class);
+        startActivity(intent);
     }
 }

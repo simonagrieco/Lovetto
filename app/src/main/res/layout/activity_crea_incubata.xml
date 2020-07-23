@@ -274,6 +274,7 @@
 
                 <!-- bottone "salva modifiche" -->
                 <Button
+                    android:onClick="inserisciIncubata"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
