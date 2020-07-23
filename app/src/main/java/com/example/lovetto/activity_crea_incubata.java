@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.lovetto.utility.datiTemporanei;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class activity_crea_incubata extends AppCompatActivity {
@@ -49,20 +50,26 @@ public class activity_crea_incubata extends AppCompatActivity {
     }
 
     public void inserisciIncubata(View view) {
+        datiTemporanei.setIncubataCreata(true);
         intent = new Intent(this, activity_list.class);
         startActivity(intent);
-        Toast t = new Toast(this);
-        t.makeText(this, "Incubata creata!", Toast.LENGTH_LONG).setGravity(0, 50, 50);
-        t.show();
+//        Toast t = new Toast(this);
+//        t.makeText(this, "Incubata creata!", Toast.LENGTH_LONG);
+//        t.show();
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavMethod = new BottomNavigationView.OnNavigationItemSelectedListener() {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.home:
-                    Intent intent1 = new Intent(context, MainActivity.class);
+                    boolean creata = datiTemporanei.getIncubataCreata();
+                    Intent intent1;
+                    if (creata) {
+                        intent1 = new Intent(context, activity_oggi.class);
+                    } else{
+                        intent1 = new Intent(context, MainActivity.class);
+                    }
                     startActivity(intent1);
-                    break;
                 case R.id.listaIncubata:
                     Intent intent2 = new Intent(context, activity_list.class);
                     startActivity(intent2);
@@ -76,6 +83,8 @@ public class activity_crea_incubata extends AppCompatActivity {
                     startActivity(intent4);
                     break;
 
+                default:
+                    throw new IllegalStateException("Unexpected value: " + item.getItemId());
             }
             return false;
         }

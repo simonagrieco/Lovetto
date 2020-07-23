@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.lovetto.utility.datiTemporanei;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class activity_tutorial extends AppCompatActivity {
@@ -45,9 +47,14 @@ public class activity_tutorial extends AppCompatActivity {
             public boolean onNavigationItemSelected (@NonNull MenuItem item){
             switch (item.getItemId()) {
                 case R.id.home:
-                    Intent intent1 = new Intent(context, MainActivity.class);
+                    boolean creata = datiTemporanei.getIncubataCreata();
+                    Intent intent1;
+                    if (creata) {
+                        intent1 = new Intent(context, activity_oggi.class);
+                    } else{
+                        intent1 = new Intent(context, MainActivity.class);
+                    }
                     startActivity(intent1);
-                    break;
                 case R.id.listaIncubata:
                     Intent intent2 = new Intent(context, activity_list.class);
                     startActivity(intent2);
