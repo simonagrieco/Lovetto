@@ -37,8 +37,8 @@ public class activity_tutorial extends AppCompatActivity {
     }
 
     public void lanciaDettaglioTutorial(View view) {
-        intent = new Intent(this, activity_tutorial.class);
-        startActivity(intent);
+//        intent = new Intent(this, activity_tutorial.class);
+//        startActivity(intent);
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavMethod = new BottomNavigationView.OnNavigationItemSelectedListener() {

@@ -28,6 +28,7 @@
                     android:layout_marginLeft="70dp"
                     android:layout_marginRight="70dp"
                     android:fontFamily="@font/robotoblack"
+                    android:textColor="#171717"
                     android:text="Oggi"
                     android:textSize="40dp" />
 
@@ -45,7 +46,7 @@
                 android:layout_above="@id/LL2"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="8dp"
-                android:fontFamily="@font/robotoslab"
+                style="@style/descrizione_sezione"
                 android:gravity="left"
                 android:text="Benvenuto in Lovetto"
                 android:textSize="18dp" />
@@ -57,7 +58,8 @@
                 style="@style/section_blocchi_home"
                 android:layout_below="@+id/LL1"
                 android:background="@drawable/file_red"
-                android:onClick="lanciaCreaIncubata">
+                android:onClick="lanciaCreaIncubata"
+                android:paddingTop="34dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -86,7 +88,7 @@
                 android:layout_above="@id/LL3"
                 android:layout_marginLeft="50dp"
                 android:layout_marginBottom="5dp"
-                android:fontFamily="@font/robotoslab"
+                style="@style/descrizione_sezione"
                 android:text="Approfondisci"
                 android:textSize="18dp" />
 
@@ -118,7 +120,7 @@
                     android:layout_row="0"
                     android:layout_column="1"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_lampadina" />
+                    android:background="@drawable/lamp_icon" />
 
                 <ImageView
                     android:layout_width="40dp"
