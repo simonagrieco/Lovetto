@@ -12,17 +12,17 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:padding="40dp">
+                android:layout_margin="33dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_sx_home" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/left_btn" />
 
                 <TextView
+                    android:id="@+id/daytv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="70dp"
@@ -30,22 +30,23 @@
                     android:fontFamily="@font/robotoblack"
                     android:textColor="#171717"
                     android:text="Oggi"
-                    android:textSize="40dp" />
+                    android:textSize="40dp"/>
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/ic_dx_home" />
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:background="@drawable/right_btn" />
 
             </LinearLayout>
 
             <!-- testo benvenuto -->
             <TextView
+                android:id="@+id/benvenutotv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_above="@id/LL2"
+                android:layout_below="@id/LL1"
                 android:layout_marginLeft="50dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="13dp"
                 style="@style/descrizione_sezione"
                 android:gravity="left"
                 android:text="Benvenuto in Lovetto"
@@ -56,7 +57,7 @@
             <GridLayout
                 android:id="@+id/LL2"
                 style="@style/section_blocchi_home"
-                android:layout_below="@+id/LL1"
+                android:layout_below="@id/benvenutotv"
                 android:background="@drawable/file_red"
                 android:onClick="lanciaCreaIncubata"
                 android:paddingTop="34dp">
@@ -87,7 +88,7 @@
                 android:layout_height="wrap_content"
                 android:layout_above="@id/LL3"
                 android:layout_marginLeft="50dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="13dp"
                 style="@style/descrizione_sezione"
                 android:text="Approfondisci"
                 android:textSize="18dp" />

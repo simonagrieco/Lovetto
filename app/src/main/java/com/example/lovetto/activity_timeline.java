@@ -22,6 +22,9 @@ public class activity_timeline extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timeline);
 
+        // Nascondo la actionbar
+        getSupportActionBar().hide();
+
         context=this;
         bottomNavigationView = findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);

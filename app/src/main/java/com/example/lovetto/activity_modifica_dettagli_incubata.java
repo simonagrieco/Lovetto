@@ -22,6 +22,9 @@ public class activity_modifica_dettagli_incubata extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modifica_dettagli_incubata);
 
+        // Nascondo la actionbar
+        getSupportActionBar().hide();
+
         context=this;
         bottomNavigationView = findViewById(R.id.bottomNav);
         bottomNavigationView.setOnNavigationItemSelectedListener(bottomNavMethod);
