@@ -16,5 +16,6 @@
     <string name="ok">OK</string>
     <string name="hint_ricerca">Cerca un luogo o un negozio</string>
     <string name="descrizione_sezione_negozi">Negozi vicino a te</string>
+    <string name="lista">Lista \nIncubate</string>
 
 </resources>
