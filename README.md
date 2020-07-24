@@ -1,6 +1,9 @@
 # Lovetto
-## Progetto Interazione Uomo - Macchina (Gruppo 20)
+### Progetto Interazione Uomo - Macchina
 ###### Gruppo 20 formato da *Coccaro Benedetta*, *Grieco Simona* e *Rossi Gianluca*.
+
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+### Contenuti extra
 
 - Nella cartella "[**Documentazione**](https://github.com/simonagrieco/Lovetto/tree/master/Documentazione)" è possibile trovare tutti i documenti svolti per la realizzazione del progetto.
 - Nella cartella "[**Presentazione**](https://github.com/simonagrieco/Lovetto/tree/master/Presentazione)" è possibile trovare la presentazione in PowerPoint del progetto.
