@@ -42,17 +42,51 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/calendario"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/LL1"
-                android:layout_marginTop="50dp">
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
 
                 <CalendarView
                     android:layout_width="420dp"
                     android:layout_height="match_parent" />
-            </LinearLayout>        </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_line"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_below="@id/calendario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Aggiungi nota..."
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/default_margin"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_piu_note"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/default_margin"/>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
 
     </ScrollView>
 
