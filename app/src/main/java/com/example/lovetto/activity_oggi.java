@@ -64,7 +64,7 @@ public class activity_oggi extends AppCompatActivity implements ActivityCompat.O
     }
 
     public void lanciaIeri(View view) {
-        intent = new Intent(this, activity_domani.class);
+        intent = new Intent(this, activity_ieri.class);
         startActivity(intent);
     }
 
