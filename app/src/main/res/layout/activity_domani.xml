@@ -61,7 +61,7 @@
                 android:layout_marginBottom="13dp"
                 style="@style/descrizione_sezione"
                 android:gravity="left"
-                android:text="Nugget Spawner"
+                android:text="Enderegg"
                 android:textSize="18dp" />
 
 
@@ -216,7 +216,7 @@
                     style="@style/label_card_home"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Impara il nuovo\nballetto di\nTikTok"
+                    android:text="Impara sempre di più\nella sezione dei di\nTutorial"
                     android:layout_centerVertical="true"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="@dimen/default_margin"/>

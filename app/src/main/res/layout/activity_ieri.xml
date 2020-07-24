@@ -61,7 +61,7 @@
                 android:layout_marginBottom="13dp"
                 style="@style/descrizione_sezione"
                 android:gravity="left"
-                android:text="Nugget Spawner"
+                android:text="Enderegg"
                 android:textSize="18dp" />
 
 

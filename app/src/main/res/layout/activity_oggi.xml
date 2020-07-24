@@ -62,7 +62,7 @@
                 android:layout_marginBottom="13dp"
                 style="@style/descrizione_sezione"
                 android:gravity="left"
-                android:text="Nugget Spawner"
+                android:text="Enderegg"
                 android:textSize="18dp" />
 
 
@@ -203,6 +203,7 @@
                 android:text="Approfondisci"/>
 
             <RelativeLayout
+                android:onClick="mostraTutorial"
                 style="@style/section_blocchi_home"
                 android:background="@drawable/file_blue"
                 android:layout_marginBottom="100dp">
